@@ -1,0 +1,167 @@
+body {
+  background-color: rgba(160, 158, 158, 0.212);
+}
+
+.move-sidebar {
+  transform: translate(-170px, 0);
+}
+
+.sidebar-dark {
+  background-color: rgb(2, 2, 26) !important;
+  transition: all 0.2s;
+}
+.sidebar-dark .sidebar-icons li {
+  transition: all 0.5s;
+}
+.sidebar-dark .sidebar-icons li:hover {
+  background-color: black !important;
+}
+.sidebar-dark .sidebar-icons li a {
+  color: white !important;
+}
+.sidebar-dark .move-icons li a {
+  color: white !important;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 250px;
+  padding-left: 20px;
+  align-items: center;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: all 0.2s;
+  position: relative;
+}
+.sidebar .icons {
+  position: absolute;
+  top: 5px;
+  right: -25px;
+}
+.sidebar .icons .fa-circle-right {
+  font-size: 25px;
+  color: gray;
+}
+.sidebar .icons .fa-circle-left {
+  font-size: 25px;
+  color: gray;
+}
+.sidebar .button-dark {
+  width: 190px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  background-color: black;
+  transition: all 0.2s;
+}
+.sidebar .button-dark .sun {
+  color: rgba(48, 47, 47, 0.137);
+  font-size: 30px;
+  height: 100%;
+  width: 80px;
+  border-radius: 8px;
+  padding: 15px;
+  cursor: pointer;
+  background-color: rgb(1, 1, 8);
+  transition: all 0.2s;
+}
+.sidebar .button-dark .moon {
+  color: rgb(233, 233, 163);
+  font-size: 30px;
+  height: 100%;
+  border-radius: 8px;
+  padding: 15px;
+  cursor: pointer;
+  width: 80px;
+  text-align: end;
+  background-color: rgb(2, 2, 26);
+  transition: all 0.2s;
+}
+.sidebar .light-dark-button {
+  width: 190px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  background-color: white;
+  transition: all 0.2s;
+}
+.sidebar .light-dark-button .fa-sun {
+  color: rgb(255, 166, 0);
+  font-size: 30px;
+  height: 100%;
+  width: 80px;
+  border-radius: 8px;
+  padding: 15px;
+  cursor: pointer;
+  background-color: rgba(160, 158, 158, 0.212);
+  transition: all 0.2s;
+  margin-left: 10px;
+}
+.sidebar .light-dark-button .fa-moon {
+  color: black;
+  font-size: 30px;
+  height: 100%;
+  border-radius: 8px;
+  padding: 15px;
+  cursor: pointer;
+  width: 80px;
+  text-align: end;
+  transition: all 0.2s;
+}
+.sidebar .sidebar-icons {
+  list-style: none;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+.sidebar .sidebar-icons li {
+  line-height: 80px;
+  margin-top: 15px;
+  border-radius: 8px;
+  width: 220px;
+  height: 70px;
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  transition: all 0.5s;
+}
+.sidebar .sidebar-icons li:hover {
+  background-color: rgba(160, 158, 158, 0.397);
+}
+.sidebar .sidebar-icons li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.sidebar .sidebar-icons li a i {
+  font-size: 25px;
+  padding-right: 20px;
+}
+.sidebar .move-icons {
+  list-style: none;
+  font-size: 20px;
+  padding-top: 20px;
+  float: right;
+}
+.sidebar .move-icons li {
+  line-height: 80px;
+  margin-top: 15px;
+  border-radius: 8px;
+  width: 60px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  margin-right: 10px;
+}
+.sidebar .move-icons li:hover {
+  background-color: rgba(160, 158, 158, 0.397);
+}
+.sidebar .move-icons li a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}/*# sourceMappingURL=style.css.map */
